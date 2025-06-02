@@ -1,3 +1,40 @@
+/*
+BUG HUNTER 
+
+Insira o código em Java na plataforma Jdoodle, e encontre os erros do programa conforme reclamados pelo cliente, o código está no github. 
+
+ 
+
+1 - Não consigo sair do programa 
+
+2 - Senha mestra não funciona como deveria 
+
+3 - Quando cadastro o serviço ele não faz o tratamento, ou seja, ele é case-sensitive. 
+
+4 - Gostaria de senhas maiores com pelo menos 12 digitos 
+
+5 - Gostaria que as senhas também tivessem letras minúsculas do alfabeto. 
+
+6 - Gostaria de ser avisado quando não digito uma opção válida. 
+
+7 - A senha gerada para cada serviço aparece em claro, gostaria que somente fosse impresso “Senha gerada para <serviço>: ************”, e que só aparecesse na consulta 
+
+8 - Depois de algumas tentativas o programa para completamente. 
+
+ 
+
+Tags de ajuda 
+
+true 
+.toLowerCase() 
+"*".repeat(senhaGerada.length()) 
+! 
+
+*/
+
+
+
+
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Random;
